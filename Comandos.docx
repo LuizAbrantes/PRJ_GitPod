@@ -1,0 +1,55 @@
+Comandos utilizados no exercício 2 do dia 23/04 no gitpod
+
+Etapa 1
+
+git branch projeto_1
+git checkout projeto_1
+git add .
+git commit -m "Criacao do Arquivo MeusDados"
+git push -u origin projeto_1
+git checkout master
+git merge projeto_1
+git push -u origin master
+
+Etapa 2
+
+git branch projeto_2
+git checkout projeto_2
+git add .
+git commit -m "Editando MeusDados"
+git push -u origin projeto_2
+git checkout master
+git merge projeto_2
+git push -u origin master
+
+Etapa 3
+
+git checkout projeto_2
+git log
+git revert 25b88b1b4481de1ee5965ed785879c4cbd1080f8
+git push -u origin master
+
+Etapa 4
+
+git branch projeto_3
+git checkout projeto_3
+git add .
+git commit -m "Editando Meus Dados e criando MeuCurso"
+git push -u origin projeto_3
+git status
+git commit -m "Criando MeuCurso"
+git push -u origin projeto_3
+git checkout master
+git merge projeto_3
+git push -u origin master
+
+Etapa Comandos
+
+git branch Comandos
+git checkout Comandos
+git add .
+git commit -m "Criacao do arquivo Comandos"
+git push -u origin Comandos
+git checkout master
+git merge Comandos
+git push -u origin master
